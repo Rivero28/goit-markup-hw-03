@@ -80,6 +80,8 @@ body {
 }
 .main-banner {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
 }
 .main-banner-header {
   font-size: 56px;
@@ -103,6 +105,14 @@ body {
 }
 .main-banner-button:focus {
   background-color: #404bbf;
+}
+.characteristics-list {
+  display: flex;
+}
+
+.characteristics-list-item {
+  width: 264px;
+  height: 104 px;
 }
 .main-list-element {
   background-color: #ffffff;
