@@ -52,16 +52,27 @@ ol {
 .nav-header {
   display: flex;
   align-items: center;
-  flex-direction: row;
 }
 .menu {
   display: flex;
   flex-direction: row;
   gap: 40px;
 }
+.address {
+  font-style: normal;
+  display: flex;
+  align-items: center;
+}
+.address-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .address-list {
   display: flex;
-  justify-content: flex-end;
+  text-align: left;
+  align-items: center;
   gap: 40px;
 }
 .menu-item {
@@ -95,15 +106,7 @@ ol {
   color: #2e2f42;
   padding: 24px 0;
 }
-.address {
-  font-style: normal;
-}
-.address-list-item {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 .link:hover {
   color: #404bbf;
 }
@@ -159,7 +162,7 @@ ol {
   gap: 24px;
 }
 .characteristics-list-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px) / 4);
   height: 104 px;
   margin-left: 24px;
 }
@@ -181,6 +184,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 24px;
 }
 .main-list-element {
   background-color: #ffffff;
