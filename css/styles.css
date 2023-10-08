@@ -164,7 +164,6 @@ ol {
 .main-banner-button:focus {
   background-color: #404bbf;
 }
-
 .characteristics-list {
   display: flex;
   justify-content: center;
@@ -172,11 +171,9 @@ ol {
   gap: 24px;
 }
 .characteristics-list-item {
-  width: calc((100%-72px) / 4);
-  height: 104 px;
-  margin-left: 24px;
+  flex-basis: calc((100%-72px) / 4);
 }
-.characteristics-list-item-h3 {
+.characteristics-list-item-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
