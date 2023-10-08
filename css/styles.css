@@ -260,6 +260,9 @@ ol {
   padding: 100px 0;
   display: block;
 }
+.footer > .container {
+  display: inline-block;
+}
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
