@@ -122,7 +122,7 @@ ol {
 }
 .main-banner {
   background-color: #2e2f42;
-  width: 1440px;
+
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -171,7 +171,7 @@ ol {
   gap: 24px;
 }
 .characteristics-list-item {
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .characteristics-list-item-header {
   font-weight: 500;
@@ -257,20 +257,16 @@ ol {
   padding: 100px 0;
   display: block;
 }
-.footer > .container {
-  display: inline-block;
-}
+
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 156px;
 }
 .footer-description {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-left: 156px;
 }
 .logo-secondary-footer {
   color: #f4f4fd;
